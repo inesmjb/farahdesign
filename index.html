@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Accueil - Le Patrimoine de l'Eau</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #eef6f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #3baac9;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #2f94ad;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1em;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+      margin-top: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #2f94ad;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    .images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 25px;
+    }
+
+    .images img {
+      width: 100%;
+      max-width: 280px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    input, button {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #3baac9;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2f94ad;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Le Patrimoine de l’Eau en Tunisie</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Accueil</a>
+    <a href="l'eau.html">L'eau en Tunisie</a>
+  </nav>
+
+  <div class="container">
+    <h2>De quoi parle ce site ?</h2>
+    <p>Ce site met en lumière l’importance du patrimoine de l’eau en Tunisie. À travers ce projet, je souhaite sensibiliser les gens à la richesse et à la fragilité de nos ressources hydriques.</p>
+
+    <h2>Pourquoi ce sujet ?</h2>
+    <p>L’eau est une ressource précieuse et indispensable à la vie. En Tunisie, les rivières, les lacs, les sources et les zones humides représentent un véritable trésor naturel qu’il faut protéger. Ce projet m’a permis d’en apprendre plus sur notre environnement et de partager ces connaissances avec vous.</p>
+
+    <div class="images">
+      <img src="https://i.pinimg.com/736x/28/3b/0a/283b0a7efcfc8adfd0f3c2cd6ea16756.jpg" alt="Lac Ichkeul" />
+      <img src="https://i.pinimg.com/736x/71/46/74/71467474715e86ef2d795b5af5bc66d7.jpg" alt="Oasis de Tamerza" />
+      <img src="https://i.pinimg.com/736x/3a/bc/36/3abc3699124edc3df0977dc845cf7efb.jpg" alt="Barrage de Sidi Salem" />
+    </div>
+
+    <h2>Inscription</h2>
+    <p>Si tu veux recevoir des mises à jour ou en savoir plus, tu peux t’inscrire ici :</p>
+    <form>
+      <input type="text" placeholder="Nom d'utilisateur" required />
+      <input type="email" placeholder="Email" required />
+      <input type="password" placeholder="Mot de passe" required />
+      <button type="submit">S'inscrire</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 - Projet individuel sur le patrimoine de l'eau</p>
+  </footer>
+
+</body>
+</html>
